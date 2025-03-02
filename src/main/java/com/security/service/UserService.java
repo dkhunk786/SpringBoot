@@ -12,5 +12,7 @@ public interface UserService {
 	User createUser(User user);
 
 	List<User> gatAllUsers();
+	
+	List<User> gatUsers();
 
 }
