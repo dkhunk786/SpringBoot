@@ -27,4 +27,10 @@ public class UserServiceImpl implements UserService{
 		return repository.findAll();
 	}
 
+	@Override
+	public List<User> gatUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
